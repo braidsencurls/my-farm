@@ -1,10 +1,7 @@
 package com.braidsencurls.solutions;
 
-import com.braidsencurls.models.Bird;
 import com.braidsencurls.models.Chicken;
-import com.braidsencurls.models.CluckTalk;
-import com.braidsencurls.models.Cockadoodledoo;
-import com.braidsencurls.models.Duck;
+import com.braidsencurls.models.CockadoodledooTalk;
 import com.braidsencurls.models.IFly;
 import com.braidsencurls.models.ISwim;
 import com.braidsencurls.models.ITalk;
@@ -18,7 +15,7 @@ public class SolutionA3 {
 	
 	public static void main(String[] args) {
 		IFly roosterFly = new NoFly();
-		ITalk roosterTalk = new Cockadoodledoo();
+		ITalk roosterTalk = new CockadoodledooTalk();
 		ISwim roosterSwim = new NoSwim();
 		IWalk roosterWalk = new SimpleWalk();
 		

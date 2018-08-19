@@ -5,7 +5,7 @@ package com.braidsencurls.models;
  * @author Christine
  * Implementation of ITalk that says Cock-a-doodle-doo
  */
-public class Cockadoodledoo implements ITalk {
+public class CockadoodledooTalk implements ITalk {
 
 	@Override
 	public void talk() {
