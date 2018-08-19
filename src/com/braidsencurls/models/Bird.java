@@ -13,8 +13,9 @@ public class Bird extends Animal {
 		super(walk, fly, sing);
 	}
 	
-	public void sing() {
-		System.out.println("I am singing");
+	//Added talk and swim
+	public Bird(IWalk walk, IFly fly, ISing sing, ITalk talk, ISwim swim) {
+		super(walk, fly, sing, talk, swim);
 	}
 
 }

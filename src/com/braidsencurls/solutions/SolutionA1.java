@@ -8,7 +8,7 @@ import com.braidsencurls.models.SimpleFly;
 import com.braidsencurls.models.SimpleSing;
 import com.braidsencurls.models.SimpleWalk;
 
-public class Solution {
+public class SolutionA1 {
 	
 	public static void main(String[] args) {
 		IWalk walk = new SimpleWalk();

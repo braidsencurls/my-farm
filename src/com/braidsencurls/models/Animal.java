@@ -7,6 +7,10 @@ public class Animal {
 	private IFly fly;
 	
 	private ISing sing;
+	
+	private ITalk talk;
+	
+	private ISwim swim;
 
 	public Animal() {
 		
@@ -16,6 +20,14 @@ public class Animal {
 		this.walk = walk;
 		this.fly = fly;
 		this.sing = sing;
+	}
+	
+	public Animal(IWalk walk, IFly fly, ISing sing, ITalk talk, ISwim swim) {
+		this.walk = walk;
+		this.fly = fly;
+		this.sing = sing;
+		this.talk = talk;
+		this.swim = swim;
 	}
 	
 	public IWalk getWalk() {
@@ -40,6 +52,22 @@ public class Animal {
 
 	public void setSing(ISing sing) {
 		this.sing = sing;
+	}
+
+	public ITalk getTalk() {
+		return talk;
+	}
+
+	public void setTalk(ITalk talk) {
+		this.talk = talk;
+	}
+
+	public ISwim getSwim() {
+		return swim;
+	}
+
+	public void setSwim(ISwim swim) {
+		this.swim = swim;
 	}
 	
 }
